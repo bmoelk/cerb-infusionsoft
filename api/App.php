@@ -49,7 +49,7 @@ class ProfileTab_InfusionSoft extends Extension_ContextProfileTab {
     // Template
     $tpl->assign('contact', $contact);
     $tpl->assign('groups', $groups);
-    $tpl->display('devblocks:cerb-infusionsoft::tab.tpl');
+    $tpl->display('devblocks:bmoelk.infusionsoft::tab.tpl');
   }
 
   function AddTag($tagID) {
