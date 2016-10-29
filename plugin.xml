@@ -5,14 +5,14 @@
     <name>InfusionSoft Link</name>
     <description>Links InfusionSoft data into cerb.</description>
     <author>Brian Moelk</author>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <link>https://github.com/bmoelk/cerb-infusionsoft</link>
     <image>plugin.png</image>
 
     <!-- Requirements -->
 
     <requires>
-        <app_version min="7.0.3" max="7.0.99"/>
+        <app_version min="7.0.3" max="7.2.99"/>
         <php_extension name="curl"/>
     </requires>
 
